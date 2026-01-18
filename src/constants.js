@@ -22,31 +22,33 @@ export const navMenu = [
     },
 ];
 
-export const linkedin = "https://www.linkedin.com/in/syamjith-mk/";
 
 export const connectMe = {
     Email: "syamjithmelon@gmail.com",
-    Phone: "+91 8907316813",
+    Phone: "8907316813",
+    LinkedIn: "www.linkedin.com/in/syamjith-mk",
 };
+
+export const EducationHeading = "Formal education and technical training supporting my BIM and HVAC career.";
+
+export const additionalTraining = {
+        title: "Artificial Intelligence and Machine Learning Development",
+        institute: "IIT Palakkad & ASAP Kerala, 2022–2023"
+    }
 
 export const education = [
     {
         id: 1,
-        title: "Diploma in Building Mechanical Systems",
-        institute: "MEDAC - MEP Training Academy, Kottakkal, 2023"
-    },
-    {
-        id: 2,
-        title: "Artificial Intelligence and Machine Learning Development",
-        institute: "IIT Palakkad & ASAP Kerala, 2022–2023"
-    },
-    {
-        id: 3,
-        title: "Bachelor of Technology in Mechanical Engineering",
+        title: "Bachelor of Technology(B.Tech) – Mechanical Engineering",
         institute: "Government Rajiv Gandhi Institute of Technology, Kottayam, 2018–2021"
     },
     {
-        id: 4,
+        id: 2,
+        title: "Diploma – Building Mechanical Systems (MEP)",
+        institute: "MEDAC - MEP Training Academy, Kottakkal, 2023"
+    },
+    {
+        id: 3,
         title: "Polytechnic Diploma in Automobile Engineering",
         institute: "SSM Polytechnic College, Tirur, 2014–2017"
     },
@@ -58,63 +60,82 @@ export const workExperience = [
         logo: D3SlOGO,
         companyName: "D3S Solutions Pvt Ltd",
         website: "https://d3ssolutions.com/",
-        duration: "August 2024 - Present",
+        duration: "August 2024 - Present | GCC Projects",
         location: "Muvattupuzha, India  -On-site",
         role: "BIM Modeler – Mechanical",
         techStack: "AutoCAD, Revit, BIM 360, Carrier HAP, MS Office, Elite Duct Sizer, McQuay Duct/Pipe Sizer",
         projects: [
             {
                 id:1,
-                name: "ENDRESS HAUSER – Dubai (HVAC layouts, shop drawings)"
+                name: "MRO Hangar – New Benghazi International Airport, Libya"
             },
             {
                 id:2,
-                name: "AL JADHAFF – Dubai (Apartments)"
+                name: "Bloom Living – Granada Phases 1 & 2, Abu Dhabi"
             },
             {
                 id:3,
-                name: "GRANADA 1 & 2 – Dubai & Abu Dhabi (Apartments)"
+                name: "Fairmont Residences – Solara Tower, Dubai"
             },
             {
                 id:4,
-                name: "SOL TOWER – Dubai, UAE"
+                name: "One Hotel – Riyadh, KSA"
             },
             {
                 id:5,
-                name: "ONE HOTEL – Saudi Arabia"
+                name: "TA’ZIZ Logistics Project – Al Ruwais, UAE"
             },
             {
                 id:6,
-                name: "RIU PALACE HOTEL – Dubai Islands, UAE"
+                name: "RIU Palace Hotel – Dubai Islands, UAE"
             },
         ],
-        description:
-            "Designed HVAC, plumbing, and fire protection systems for varied buildings. Performed load calculatio ns and duct/pipe sizing. Selected mechanical equipment like AHUs, chillers, pumps, and fans.Prepared detailed 2D/3D layouts and installation drawings using AutoCAD and Revit. Coordinated across multiple disciplines for system integration and clash resolution. Developed technical documentation, BOQs, and ensured compliance with ASHRAE, SMACNA, and local codes.",
+        description: [
+           "1. Developed HVAC, plumbing, and firefighting BIM models up to LOD 350",
+           "2. Supported design through system layout development and routing", 
+           "3. Produced coordinated shop drawings as per BIM standards",
+           "4. Performed clash detection and model-based issue resolution",
+           "5. Created and modified project-specific Revit families",
+           "6. Conducted QA/QC checks and supported coordination meetings" 
+        ],          
     },
     {
         id: 2,
         logo: Medac,
         companyName: "MEDAC Enterprises Pvt Ltd",
         website: "",
-        duration: "2022 – 2024",
+        duration: "Aug 2022 – Aug 2024",
         location: "Kottakkal, India  -On-site",
         role: "MEP Design Engineer",
         techStack: "AutoCAD, Revit, BIM 360, Carrier HAP, MS Office, Elite Duct Sizer, McQuay Duct/Pipe Sizer",
         projects: [
             {
                 id:1,
-                name: "OTHAIM HOTEL – Arar, UAE"
+                name: "Othaim Hotel – Arar, KSA"
             },
             {
                 id:2,
-                name: "DRAHIM – Saudi Arabia"
+                name: "Drahim – Saudi Arabia"
             },
             {
                 id:3,
-                name: "BSF DABAB – Saudi Arabia"
+                name: "BSF Dabab – Saudi Arabia"
+            },
+            {
+                id:4,
+                name: "Neotek – Saudi Arabia"
             },
         ],
-        description:
-            "Create and maintain BIM models by coordinating with reference design documents and client suggestions. Develop detailed Revit families as per project requirements. Prepare detailed plans, elevations, and sections from coordinated BIM models in compliance with standards. Coordinate with Architectural, Structural, and Electrical Departments in designing layouts for HVAC, plumbing, and firefighting systems. Quantity takeoff for HVAC, plumbing, and firefighting works. Develop MEP models up to LOD350 in coordination with other disciplines. Attend coordination meetings and resolve project issues. Oversee QA/QC for project deliverables.",
+        description: [
+            "1. Designed HVAC, plumbing, and fire protection systems for residential, commercial, and hospitality projects.",
+            "2. Performed heat load calculations, equipment selection, and duct/pipe sizing as part of mechanical design activities.",
+            "3. Produced detailed design drawings, layouts, and installation details using AutoCAD and Revit.",
+            "4. Developed detailed plans, sections, and elevations in compliance with applicable standards.",
+            "5. Coordinated with architectural, structural, and electrical teams to deliver integrated mechanical designs.",
+            "6. Prepared quantity take-offs and BOQs for HVAC, plumbing, and firefighting works.",
+            "7. Participated in coordination meetings and supported resolution of design-related issues.",
+            "8. Assisted with QA/QC checks to ensure accuracy and compliance of design deliverables.",
+            "9. Ensured compliance with ASHRAE and local authority requirements during design documentation."
+        ],
     },
 ];

@@ -6,7 +6,9 @@ const ExperienceCard = ({ data }) => {
             <h4 className="text-xs md:text-sm">{data.duration}</h4>
             <h4 className="italic text-xs md:text-sm">{data.location}</h4>
             <section className="p-2">
-                <p className="text-xs md:text-sm">{data.description}</p>
+                {data?.description?.map((desc, index) => (
+                    <p key={index} className="text-xs md:text-sm">{desc}</p>
+                ))}
                 <h3 className="text-xs md:text-sm text-gray-800 mt-2">Projects : </h3>
                 <ul className="list-disc pl-5">
                     {data?.projects.map(project => (
