@@ -105,7 +105,7 @@ export const workExperience = [
         companyName: "MEDAC Enterprises Pvt Ltd",
         website: "",
         duration: "Aug 2022 – Aug 2024",
-        location: "Kottakkal, India  -On-site",
+        location: "Calicut, India  -On-site",
         role: "MEP Design Engineer",
         techStack: "AutoCAD, Revit, BIM 360, Carrier HAP, MS Office, Elite Duct Sizer, McQuay Duct/Pipe Sizer",
         projects: [

@@ -63,7 +63,7 @@ const Home = () => {
                 {/* <h2 className="text-lg sm:text-xl font-medium">Hi, I'm</h2> */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-shadow-lg">Syamjith Melon Kunnath</h1>
                 <h3 className="text-xl md:text-3xl font-medium text-shadow-lg">Mechanical BIM Engineer / Modeler
-                <br /> HVAC • Plumbing • Firefighting | LOD 350</h3>
+                <br /> HVAC • Plumbing | LOD 350</h3>
                 <div className="w-full text-left">
                     <p className="leading-relaxed text-sm sm:text-base">
                         Mechanical BIM Engineer / Modeler with 3.5+ years of experience delivering HVAC, plumbing, and firefighting BIM models for GCC and international projects, including UAE, Saudi Arabia, and Libya.
@@ -78,7 +78,7 @@ Experienced in developing LOD 350 BIM models, performing design-assist coordinat
                 </div>
                 <p className="font-medium text-md">Additional tools: Carrier HAP, BIM 360, Elite Duct Sizer, McQuay Duct/Pipe Sizer</p>
                 <div className="flex flex-col sm:flex-row items-center gap-4 py-6 justify-center md:justify-start">
-                    <span>Download Resume (PDF)</span>
+                    <span>Download Resume</span>
                     <button
                         onClick={handleDownload}
                         className="flex gap-2 cursor-pointer hover:bg-amber-400 transition-colors duration-200 bg-amber-300 border-0 rounded-xl py-2 px-3 active:scale-95"
