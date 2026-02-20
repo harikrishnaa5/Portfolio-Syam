@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import BottomNav from "./components/BottomNav";
 import Education from "./components/education/Education";
+import Projects from "./components/projects/Projects";
 
 function App() {
     const [open, setOpen] = useState(false);
@@ -28,6 +29,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/experience" element={<Experience />} />
+                <Route path="/projects" element={<Projects />} />
                 <Route path="/education" element={<Education />} />
             </Routes>
             <Contact open={open} setOpen={setOpen} />

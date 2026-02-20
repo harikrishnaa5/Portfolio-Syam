@@ -1,4 +1,5 @@
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from "@headlessui/react";
+import SocialMedia from "../SocialMedia";
 import { connectMe } from "../../constants";
 
 
@@ -18,25 +19,34 @@ const Contact = ({ open, setOpen }) => {
                     >
                         <div className="flex px-4 sm:p-6 sm:pb-4 flex-col gap-4">
                             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-shadow-lg">Contact</h1>
-                            {Object.entries(connectMe).map(([key, value]) => (
-                                <p className="text-sm sm:text-base" key={key}>
-                                    {key}: {" "}
-                                    {key.toLowerCase() === "email" ? (
-                                        <a href={`mailto:${value}`} target="_blank" rel="noopener noreferrer">
-                                            {value}
+                            {Object.entries(connectMe).map(([key, value]) => {
+                                const lowerKey = key.toLowerCase();
+
+                                return (
+                                    <p className="text-sm sm:text-base" key={key}>
+                                    {key}:{" "}
+                                    {lowerKey === "email" ? (
+                                        <a href={`mailto:${value}`}>
+                                        {value}
                                         </a>
-                                    ) : key.toLowerCase() === "linkedin" ? (
-                                        <a href={`https://${value}`} target="_blank" rel="noopener noreferrer">
-                                            {value}
+                                    ) : lowerKey === "phone" ? (
+                                        <a
+                                        href={`https://wa.me/91${value}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        {value}
                                         </a>
                                     ) : (
                                         value
                                     )}
-                                </p>
-                            ))}
-                            {/* <p className="flex gap-5 items-center text-sm sm:text-base">
-                                LinkedIn: 
-                            </p> */}
+                                    </p>
+                                );
+                                })}
+
+                            <p className="flex gap-5 items-center text-sm sm:text-base">
+                                LinkedIn: <SocialMedia /> 
+                            </p>
                         </div>
                     </DialogPanel>
                 </div>
