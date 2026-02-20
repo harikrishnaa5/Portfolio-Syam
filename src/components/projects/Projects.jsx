@@ -12,7 +12,9 @@ const Projects = () => {
         {projectsList.map((project) => (
           <div
             key={project.id}
-            className="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition"
+            className="bg-white shadow-md rounded-xl overflow-hidden
+           hover:shadow-lg transition transform hover:scale-105 hover:-translate-y-1
+           duration-300 ease-out cursor-pointer"
           >
             {/* Image */}
             {project.src && (
@@ -26,13 +28,12 @@ const Projects = () => {
             )}
 
             <div className="p-5">
-              <h2 className="text-lg font-semibold mb-3">
-                {project.title}
-              </h2>
+              <h2 className="text-lg font-semibold mb-3">{project.title}</h2>
 
               {project.projectType && (
                 <p className="text-sm text-gray-500 mb-2">
-                  <span className="font-medium">Type:</span> {project.projectType}
+                  <span className="font-medium">Type:</span>{" "}
+                  {project.projectType}
                 </p>
               )}
 
@@ -78,7 +79,8 @@ const Projects = () => {
 
               {project.responsibility && (
                 <p className="text-sm text-gray-600">
-                  <span className="font-medium">Role:</span> {project.responsibility}
+                  <span className="font-medium">Role:</span>{" "}
+                  {project.responsibility}
                 </p>
               )}
             </div>
