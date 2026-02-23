@@ -49,10 +49,10 @@ export const connectMe = {
 export const EducationHeading =
   "Formal education and technical training supporting my BIM and HVAC career.";
 
-export const additionalTraining = {
-  title: "Artificial Intelligence and Machine Learning Development",
-  institute: "IIT Palakkad & ASAP Kerala, 2022–2023",
-};
+// export const additionalTraining = {
+//   title: "Artificial Intelligence and Machine Learning Development",
+//   institute: "IIT Palakkad & ASAP Kerala, 2022–2023",
+// };
 
 export const education = [
   {
@@ -125,8 +125,8 @@ export const workExperience = [
     companyName: "MEDAC Enterprises Pvt Ltd",
     website: "",
     duration: "Aug 2022 – Aug 2024",
-    location: "Calicut, India  -On-site",
-    role: "MEP Design Engineer",
+    location: "Kottakal, India  -On-site",
+    role: "Mechanical Design Engineer (MEP)",
     techStack:
       "AutoCAD, Revit, BIM 360, Carrier HAP, MS Office, Elite Duct Sizer, McQuay Duct/Pipe Sizer",
     projects: [

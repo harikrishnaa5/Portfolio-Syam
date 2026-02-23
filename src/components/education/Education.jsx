@@ -21,7 +21,7 @@ const Education = () => {
                     </div>
                 );
             })}
-            <h3 className="text-2xl sm:text-3xl font-bold text-center my-12 text-shadow-lg">Additional Training</h3>
+            {/* <h3 className="text-2xl sm:text-3xl font-bold text-center my-12 text-shadow-lg">Additional Training</h3>
             {additionalTraining && (
                 <div className="flex gap-10 sm:gap-16 justify-center mb-6">
                     <div className="relative flex justify-center">
@@ -31,7 +31,7 @@ const Education = () => {
                     </div>
                     <EducationCard data={additionalTraining} />
                 </div>
-            )}
+            )} */}
         </div>
     );
 };
