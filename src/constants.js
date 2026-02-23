@@ -87,27 +87,35 @@ export const workExperience = [
     projects: [
       {
         id: 1,
-        name: "MRO Hangar – New Benghazi International Airport, Libya",
+        name: "MRO Hangar, New Benghazi International Airport, Libya",
       },
       {
         id: 2,
-        name: "Bloom Living – Granada Phases 1 & 2, Abu Dhabi",
+        name: "Bloom Living – Granada Phases 1 & 2, Zayed City, UAE",
       },
       {
         id: 3,
-        name: "Fairmont Residences – Solara Tower, Dubai",
+        name: "TA’ZIZ Logistics Project, Al Ruwais Industrial City, UAE",
       },
       {
         id: 4,
-        name: "One Hotel – Riyadh, KSA",
+        name: "Fairmont Residences – Solara Tower, Downtown Dubai",
       },
       {
         id: 5,
-        name: "TA’ZIZ Logistics Project – Al Ruwais, UAE",
+        name: "One Hotel, Riyadh, KSA",
       },
       {
         id: 6,
         name: "RIU Palace Hotel – Dubai Islands, UAE",
+      },
+      {
+        id: 7,
+        name: "Endress + Hauser Office Fit-Out, UAE",
+      },
+      {
+        id: 8,
+        name: "Youth Orchestra and Choir of Abu Dhabi",
       },
     ],
     description: [
@@ -136,15 +144,15 @@ export const workExperience = [
       },
       {
         id: 2,
-        name: "Drahim – Saudi Arabia",
+        name: "Drahim – KSA",
       },
       {
         id: 3,
-        name: "BSF Dabab – Saudi Arabia",
+        name: "BSF Dabab – KSA",
       },
       {
         id: 4,
-        name: "Neotek – Saudi Arabia",
+        name: "Neotek – KSA",
       },
     ],
     description: [
@@ -174,27 +182,27 @@ export const projectsList = [
     id: 2,
     src: PlantRoom,
     title: "Chilled Water Pump Room – LOD 350 Modeling",
-    projectType: "",
+    projectType: "Mechanical Plant / Pump Room",
     scope:
-      "* Pump header arrangement\n* Isolation & balancing valve placement\n* Clearance validation for maintenance access",
-    responsibility: "",
+      "* Pump header arrangement\n* Isolation & balancing valve placement\n* Maintenance clearance validation",
+    responsibility: "* LOD 350 piping modeling\n* Equipment coordination\n* Access and serviceability compliance check",
   },
   {
     id: 3,
     src: trussesAndMep,
     title: "Structural & MEP Coordination Under Steel Trusses",
-    projectType: "",
+    projectType: "Industrial / Long-Span Roof Structure",
     scope:
-      "* Duct routing through structural bays\n* Elevation adjustment for clearance\n* Multi-trade clash mitigation",
-    responsibility: "",
+      "* Duct routing through structural bays\n* Elevation adjustment for clearance\n* Multi-trade clash mitigation (HVAC, piping, structure)",
+    responsibility: "* Coordination modeling under steel truss constraints\n* Clearance validation against structural members\n* Routing optimization within fixed bay geometry",
   },
   {
     id: 4,
     src: [clashDetected, clashResolved],
     title: "Clash Detection & Resolution – Hard Clash Mitigation",
-    projectType: "",
-    scope: "",
-    responsibility: "",
+    projectType: "MEP Coordination – Ceiling Void",
+    scope: "* Detection of duct vs CHW hard clash\n* Analysis of spatial constraints within limited ceiling void\n* Rerouting strategy development",
+    responsibility: "* Navisworks clash test execution\n* Vertical offset implementation and rerouting\n* Clearance verification without architectural impact",
     issue: "Duct vs CHW crossing within limited ceiling void",
     solution:
       "Vertical offset strategy & rerouting\nClearance achieved without architectural impact",
@@ -203,9 +211,9 @@ export const projectsList = [
     id: 5,
     src: typicalCorridorService,
     title: "Typical Corridor Section – Service Hierarchy Strategy",
-    projectType: "",
-    scope: "",
-    responsibility: "",
+    projectType: "Hospitality / Residential Corridor",
+    scope: "* Coordination of supply air duct\n* Fresh air duct routing\n* CHW piping layout\n* Sprinkler line integration\n* Electrical tray routing\n* Vertical zoning within ceiling void",
+    responsibility: "* Service hierarchy development (duct–pipe–tray priority logic)\n* Ceiling clearance validation (clear height compliance)\n* Multi-trade sectional coordination",
     coordinationElements:
       "* Supply air duct\n* Fresh air duct\n* CHW piping\n* Sprinkler line\n* Electrical trays",
     focus: "Vertical zoning & clear height compliance",
@@ -215,9 +223,9 @@ export const projectsList = [
     src: [chw3d, chw_section],
     title: "Hotel Serviced Apartment – FCU Chilled Water Distribution",
     projectType: "",
-    scope: "",
+    scope: "* CHWS / CHWR routing from corridor riser\n* FCU branch distribution within units\n* Ceiling void coordination\n* FCU zoning and isolation valve strategy",
     system:
       "* CHWS / CHWR routing from corridor riser\n* Ceiling void coordination\n* FCU zoning & isolation strategy",
-    responsibility: "Routing, ceiling clearance validation, coordination",
+    responsibility: "* CHW piping modeling and routing\n* Ceiling clearance validation\n* Coordination with architectural and electrical services",
   },
 ];
