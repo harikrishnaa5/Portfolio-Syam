@@ -64,7 +64,7 @@ export const education = [
   {
     id: 2,
     title: "Diploma – Building Mechanical Systems (MEP)",
-    institute: "MEDAC - MEP Training Academy, Kottakkal, 2023",
+    institute: "MEDAC - MEP Training Academy, Calicut, 2023",
   },
   {
     id: 3,
