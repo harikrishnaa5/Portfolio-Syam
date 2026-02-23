@@ -3,9 +3,13 @@ import Medac from "./assets/medac.jpg";
 import PlantRoom from "./assets/plant_room.jpeg";
 import CentralPlantMachine from "./assets/CentralPlantMechanicalLayout.jpeg";
 import chw3d from "./assets/chw3d.jpeg";
+import chw_section from "./assets/chw_section.jpeg";
 import typicalCorridorService from "./assets/typical_corridor_services.jpeg";
 import clashDetected from "./assets/clash_detected.jpeg";
+import clashResolved from "./assets/clash_resolved.jpeg";
 import trussesAndMep from "./assets/trusses_and_mep.jpeg";
+import whatsapp from "./assets/whatsapp.webp";
+import gmail from "./assets/gmail.webp";
 
 export const navMenu = [
   {
@@ -37,8 +41,8 @@ export const navMenu = [
 export const linkedin = "https://www.linkedin.com/in/syamjith-mk/";
 
 export const connectMe = {
-  Email: "syamjithmelon@gmail.com",
-  Phone: "8907316813",
+  Email: { name: "syamjithmelon@gmail.com", icon: gmail },
+  Phone: { name: "8907316813", icon: whatsapp },
   // LinkedIn: "www.linkedin.com/in/syamjith-mk",
 };
 
@@ -186,7 +190,7 @@ export const projectsList = [
   },
   {
     id: 4,
-    src: clashDetected,
+    src: [clashDetected, clashResolved],
     title: "Clash Detection & Resolution – Hard Clash Mitigation",
     projectType: "",
     scope: "",
@@ -208,7 +212,7 @@ export const projectsList = [
   },
   {
     id: 6,
-    src: chw3d,
+    src: [chw3d, chw_section],
     title: "Hotel Serviced Apartment – FCU Chilled Water Distribution",
     projectType: "",
     scope: "",

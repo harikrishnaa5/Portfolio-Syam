@@ -1,5 +1,6 @@
 import React from "react";
 import { projectsList } from "../../constants";
+import ProjectCarousel from "./ProjectCarousel";
 
 const Projects = () => {
   return (
@@ -18,13 +19,11 @@ const Projects = () => {
           >
             {/* Image */}
             {project.src && (
-              <div className="w-full pt-8 flex items-center justify-center bg-gray-50">
-                <img
-                  src={project.src}
-                  alt={project.title}
-                  className="max-h-52 max-w-full object-contain"
-                />
-              </div>
+              <ProjectCarousel
+                images={
+                  Array.isArray(project.src) ? project.src : [project.src]
+                }
+              />
             )}
 
             <div className="p-5">
