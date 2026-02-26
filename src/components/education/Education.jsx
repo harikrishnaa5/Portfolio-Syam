@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { education } from "../../constants";
 import EducationCard from "./EducationCard"; 
 import { EducationHeading } from "../../constants";
-import { additionalTraining } from "../../constants";
+// import { additionalTraining } from "../../constants";
 
 const Education = () => {
     return (

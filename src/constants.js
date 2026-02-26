@@ -119,7 +119,7 @@ export const workExperience = [
       },
     ],
     description: [
-      "1. Developed HVAC, plumbing, and firefighting BIM models up to LOD 350",
+      "1. Developed HVAC, plumbing, and firefighting BIM models up to LOD 300",
       "2. Supported design through system layout development and routing",
       "3. Produced coordinated shop drawings as per BIM standards",
       "4. Performed clash detection and model-based issue resolution",
@@ -175,47 +175,95 @@ export const projectsList = [
     src: CentralPlantMachine,
     title: "Central Mechanical Plant – AHU & CHW Distribution",
     projectType: "Hospitality Facility",
-    scope: "Equipment placement, Refrigerent routing, duct coordination",
-    responsibility: "Modeling, spatial validation, service routing",
+    scope: [
+      "Equipment placement",
+      "Refrigerant routing",
+      "Duct coordination",
+    ],
+    responsibility: [
+      "Modeling",
+      "Spatial validation",
+      "Service routing",
+    ],
   },
   {
     id: 2,
     src: PlantRoom,
-    title: "Chilled Water Pump Room – LOD 350 Modeling",
+    title: "Chilled Water Pump Room – LOD 300 Modeling",
     projectType: "Mechanical Plant / Pump Room",
-    scope:
-      "* Pump header arrangement\n* Isolation & balancing valve placement\n* Maintenance clearance validation",
-    responsibility: "* LOD 350 piping modeling\n* Equipment coordination\n* Access and serviceability compliance check",
+    scope: [
+      "Pump header arrangement",
+      "Isolation & balancing valve placement",
+      "Maintenance clearance validation",
+    ],
+    responsibility: [
+      "LOD 300 piping modeling",
+      "Equipment coordination",
+      "Access and serviceability compliance check",
+    ],
   },
   {
     id: 3,
     src: trussesAndMep,
     title: "Structural & MEP Coordination Under Steel Trusses",
     projectType: "Industrial / Long-Span Roof Structure",
-    scope:
-      "* Duct routing through structural bays\n* Elevation adjustment for clearance\n* Multi-trade clash mitigation (HVAC, piping, structure)",
-    responsibility: "* Coordination modeling under steel truss constraints\n* Clearance validation against structural members\n* Routing optimization within fixed bay geometry",
+    scope: [
+      "Duct routing through structural bays",
+      "Elevation adjustment for clearance",
+      "Multi-trade clash mitigation (HVAC, piping, structure)",
+    ],
+    responsibility: [
+      "Coordination modeling under steel truss constraints",
+      "Clearance validation against structural members",
+      "Routing optimization within fixed bay geometry",
+    ],
   },
   {
     id: 4,
     src: [clashDetected, clashResolved],
     title: "Clash Detection & Resolution – Hard Clash Mitigation",
     projectType: "MEP Coordination – Ceiling Void",
-    scope: "* Detection of duct vs CHW hard clash\n* Analysis of spatial constraints within limited ceiling void\n* Rerouting strategy development",
-    responsibility: "* Navisworks clash test execution\n* Vertical offset implementation and rerouting\n* Clearance verification without architectural impact",
+    scope: [
+      "Detection of duct vs CHW hard clash",
+      "Analysis of spatial constraints within limited ceiling void",
+      "Rerouting strategy development",
+    ],
+    responsibility: [
+      "Navisworks clash test execution",
+      "Vertical offset implementation and rerouting",
+      "Clearance verification without architectural impact",
+    ],
     issue: "Duct vs CHW crossing within limited ceiling void",
-    solution:
-      "Vertical offset strategy & rerouting\nClearance achieved without architectural impact",
+    solution: [
+      "Vertical offset strategy",
+      "Clearance achieved without architectural impact",
+    ],
   },
   {
     id: 5,
     src: typicalCorridorService,
     title: "Typical Corridor Section – Service Hierarchy Strategy",
     projectType: "Hospitality / Residential Corridor",
-    scope: "* Coordination of supply air duct\n* Fresh air duct routing\n* CHW piping layout\n* Sprinkler line integration\n* Electrical tray routing\n* Vertical zoning within ceiling void",
-    responsibility: "* Service hierarchy development (duct–pipe–tray priority logic)\n* Ceiling clearance validation (clear height compliance)\n* Multi-trade sectional coordination",
-    coordinationElements:
-      "* Supply air duct\n* Fresh air duct\n* CHW piping\n* Sprinkler line\n* Electrical trays",
+    scope: [
+      "Coordination of supply air duct",
+      "Fresh air duct routing",
+      "CHW piping layout",
+      "Sprinkler line integration",
+      "Electrical tray routing",
+      "Vertical zoning within ceiling void",
+    ],
+    responsibility: [
+      "Service hierarchy development (duct–pipe–tray priority logic)",
+      "Ceiling clearance validation (clear height compliance)",
+      "Multi-trade sectional coordination",
+    ],
+    coordinationElements: [
+      "Supply air duct",
+      "Fresh air duct",
+      "CHW piping",
+      "Sprinkler line",
+      "Electrical trays",
+    ],
     focus: "Vertical zoning & clear height compliance",
   },
   {
@@ -223,9 +271,21 @@ export const projectsList = [
     src: [chw3d, chw_section],
     title: "Hotel Serviced Apartment – FCU Chilled Water Distribution",
     projectType: "",
-    scope: "* CHWS / CHWR routing from corridor riser\n* FCU branch distribution within units\n* Ceiling void coordination\n* FCU zoning and isolation valve strategy",
-    system:
-      "* CHWS / CHWR routing from corridor riser\n* Ceiling void coordination\n* FCU zoning & isolation strategy",
-    responsibility: "* CHW piping modeling and routing\n* Ceiling clearance validation\n* Coordination with architectural and electrical services",
+    scope: [
+      "CHWS / CHWR routing from corridor riser",
+      "FCU branch distribution within units",
+      "Ceiling void coordination",
+      "FCU zoning and isolation valve strategy",
+    ],
+    system: [
+      "CHWS / CHWR routing from corridor riser",
+      "Ceiling void coordination",
+      "FCU zoning & isolation strategy",
+    ],
+    responsibility: [
+      "CHW piping modeling and routing",
+      "Ceiling clearance validation",
+      "Coordination with architectural and electrical services",
+    ],
   },
 ];

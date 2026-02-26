@@ -63,12 +63,12 @@ const Home = () => {
                 {/* <h2 className="text-lg sm:text-xl font-medium">Hi, I'm</h2> */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-shadow-lg">Syamjith Melon Kunnath</h1>
                 <h3 className="text-xl md:text-3xl font-medium text-shadow-lg">Mechanical BIM Engineer / Modeler
-                <br /> HVAC • PHE | LOD 350</h3>
+                <br /> HVAC • PHE | LOD 300</h3>
                 <div className="w-full text-left">
                     <p className="leading-relaxed text-sm sm:text-base">
                         Mechanical BIM Engineer / Modeler with 3.5+ years of experience delivering HVAC and Public Health BIM models for GCC and international projects, including UAE, Saudi Arabia, and Libya.
                     <br /><br />
-Experienced in developing LOD 350 BIM models, performing design-assist coordination, clash detection, and QA/QC to deliver coordinated, construction-ready models. Hands-on experience supporting projects from design through detailed design stages using Revit and Navisworks, with exposure to HVAC load calculations, duct and pipe sizing, shop drawings, and BOQ preparation in compliance with ASHRAE and local codes.
+Experienced in developing LOD 300 BIM models, performing design-assist coordination, clash detection, and QA/QC to deliver coordinated, construction-ready models. Hands-on experience supporting projects from design through detailed design stages using Revit and Navisworks, with exposure to HVAC load calculations, duct and pipe sizing, shop drawings, and BOQ preparation in compliance with ASHRAE and local codes.
                     </p>
                 </div>
                 <div className="flex justify-center md:justify-start gap-3 sm:gap-4 md:gap-6 my-4 flex-wrap">
